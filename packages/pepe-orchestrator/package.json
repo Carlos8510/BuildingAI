@@ -1,0 +1,12 @@
+{
+  "name": "pepe-orchestrator",
+  "version": "1.0.0",
+  "description": "Pepe Orchestrator for agent coordination",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test-orchestrator.js"
+  },
+  "dependencies": {},
+  "license": "Apache-2.0"
+}
