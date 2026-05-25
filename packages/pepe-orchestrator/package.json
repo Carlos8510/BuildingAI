@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "node test-orchestrator.js && node tests/unit.js"
+    "test": "node --test tests/**/*.test.js tests/*.test.js",
+    "test:verify": "node test-orchestrator.js"
   },
   "dependencies": {},
   "license": "Apache-2.0"
