@@ -5,9 +5,17 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "node --test tests/*.test.js",
-    "test:verify": "node test-orchestrator.js"
+    "test": "jest",
+    "test:cov": "jest --coverage"
   },
-  "dependencies": {},
+  "devDependencies": {
+    "jest": "^30.4.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/__tests__/**/*.spec.js"
+    ]
+  },
   "license": "Apache-2.0"
 }
