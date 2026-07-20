@@ -1,0 +1,21 @@
+{
+  "name": "pepe-orchestrator",
+  "version": "1.0.0",
+  "description": "Pepe Orchestrator for agent coordination",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "test:cov": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/__tests__/**/*.spec.js"
+    ]
+  },
+  "license": "Apache-2.0"
+}
